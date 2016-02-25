@@ -15,5 +15,6 @@ char I = N + 'A' - s - 1; // O --> remember N is now 80
 char O = 347/5; // E
 
 printf("%c%c%c%c%c%c%c\n", (char) N, (char) I, (char) c, (char) E, (char) J, (char) O, (char) B);  
+// prints out POINTER
 
 }
