@@ -28,12 +28,12 @@ int main(void)
 
 // TODO: implement the swapCycle function
 
-// This function example doesn't do "cyclical" swapping
+// Apparently correct way of "cycling" the pointers
 void swapCycle(int* a, int* b, int* c)
 {
     int temp1 = *a;
     int temp2 = *c;
     *a = *b;
-    *b = temp1;
-    *c = temp2;
+    *b = temp2;
+    *c = temp1;
 }
