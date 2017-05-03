@@ -14,6 +14,7 @@ int main(int argc, char* argv[])
 
   // get the command-line arg
   char* argument = argv[1];
+  // convert string to integer
   int n = atoi(argument);
 
   // compute answer and then print it
